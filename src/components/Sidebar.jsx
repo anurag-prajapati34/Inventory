@@ -25,7 +25,7 @@ export const Sidebar = () => {
       >
 
 
-<p className={`text-md px-4 py-2 flex gap-1 items-center rounded-xl  w-full `}><i class="fa-solid fa-list"></i>Dashboard</p>
+        <p className={`text-md px-4 py-2 flex gap-1 items-center rounded-xl  w-full `}><i class="fa-solid fa-list"></i>Dashboard</p>
 
         <NavLink to='/' className={({ isActive }) => `text-md px-4 py-4 flex gap-1 items-center rounded-xl  w-full ${(isActive) ? 'bg-[var(--primary-color)] shadow-md' : 'bg-transparent'}`}><i class="fa-solid fa-chart-column"></i>Products</NavLink>
         <p className={`text-md px-4 py-4 flex gap-1 items-center rounded-xl  w-full `}><i class="fa-solid fa-cart-shopping"></i>Orders</p>
